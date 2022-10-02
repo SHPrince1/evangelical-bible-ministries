@@ -1,0 +1,18 @@
+.historyHeader{
+    text-align: center;
+    font-size: 140px;
+    font-family: poppins;
+}
+.historyHead{
+    font-size: 100px;
+    font-family: poppins;
+    color: black;
+}
+.historyImg{
+    margin-top: 9rem;
+    font-size: 10px;
+}
+.historyText{
+    font-family: poppins;
+    font-size: 13px;
+}

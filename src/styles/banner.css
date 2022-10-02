@@ -1,0 +1,48 @@
+.bannerParentDiv {
+  margin-top: 3rem;
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  justify-items: center;
+  background-color: #035e03;
+  gap: 10px;
+}
+.headerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contentHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-family: poppins;
+  font-weight: bolder;
+  color: #fff;
+}
+.bannerBtnDiv{
+    /* background-color: #fff; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3rem;
+}
+.bannerBtn{
+  border: 2px solid #fff;
+    padding: 10px 40px ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}

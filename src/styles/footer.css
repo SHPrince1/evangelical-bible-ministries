@@ -1,0 +1,32 @@
+.footerParentDiv{
+    background-color: #014e01;
+    /* padding: 200px;
+    height: 200px; */
+
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    
+}
+.footerHeader{
+    margin:1rem;
+}
+.footerContent{
+    background-color: rgba(1, 15, 15, 0.3);
+    color: #fff;
+    font-family: poppins;
+    display: block;
+    font-family: poppins;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 2rem;
+    padding: 50px;
+   
+
+}

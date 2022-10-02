@@ -1,0 +1,516 @@
+body{
+    background-color: rgb(239, 238, 238);
+}
+
+
+.introBox{
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    background-color: #308021d8;
+    margin-top: 2rem;
+    color: #fff;
+
+}
+@media (max-width:480px) {
+    .introBox {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        /* gap: 350px; */
+        background-color: #308021d8;
+        margin-top: 2rem;
+        color: #fff;
+    }
+    
+}
+.readBtn{
+    margin-top: 7rem;
+}
+
+
+.introText{
+    
+        
+    padding: 80px;
+    font-family: poppins;
+    color: #fff;
+    text-align: start;
+    /* font-size: 20px; */
+}
+    
+
+@media (max-width:480px) {
+
+.introText {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* display: block; */
+    /* padding: 50px 0px 50px 100px; */}
+}
+.readMore{
+    border: 1px solid;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: transparent;
+    /* display: flex; */
+    /* text-align: center; */
+    /* margin-top: 0rem; */
+    padding: 12px 73px 12px 74px;
+
+}
+@media (max-width:480px) {
+    .readMore {
+        position: absolute;
+        border: 1px solid;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        left: 8rem;
+        margin-top: -12rem;
+        padding: -1px 66px 22px 58px;
+    }
+}
+@media (max-width:480px) {
+    .introBanner{
+        height: 26rem;
+    background-color: #77756e;
+    display: flex;
+    flex-direction: column;
+    }
+}
+.coreValues{
+    
+}
+
+.valHead{
+    text-align: center;
+    padding: 30px;
+}
+.valLine{
+    background-color: #000;
+    width: 10px;
+    flex-direction: row;
+}
+.valParentDiv{
+    
+    width: 100%;
+    height: auto;
+}
+.valImage{
+    width: 100%;
+    /* transform-box: view-box; */
+    /* height: 95%; */
+    border-radius: 48px 1px 61px 4px;
+    
+}
+
+.valText{
+    
+    padding: 20px;
+    /* flex-direction: column; */
+    /* text-align: justify; */
+    font-family: poppins;
+    color: #707070;
+}
+
+.blogSection{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:480px) {
+    .blogSection{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+}
+.blogCard{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media (max-width:480px) {
+    .blogCard{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+.blogImage{
+    margin-left: 4rem;
+}
+@media (max-width:480px) {
+    .blogImage{
+        margin-left: 4rem;
+    }
+}
+.blogText{
+    width: 40%;
+}
+@media (max-width:480px) {
+.blogText {
+    text-align: center;
+    width: 100%;}
+}
+.blogLink{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #000;
+    margin-left: 37rem;
+    width: 13%;
+    left: -3rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.parentDivs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 35rem;
+}
+.mainHeader{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 2rem;
+
+
+}
+.wantMore{
+    font-size: 50px;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* height: 40rem; */
+    padding: 20px;
+    font-size: 18px;
+    line-height: 15px;
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+   
+}
+.plant{
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.service{
+    background-color: #a4d1a7; 
+    padding: 100px;
+    margin-left: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.line{
+    width: 5px;
+    height: 54px;
+    background-color: green;
+    
+}
+.conferenceHead{
+    color: aliceblue;
+    font-size: 20px;
+    /* margin-top: 10rem; */
+    padding: 0px 20px 15px 40px;
+
+}
+.conferenceContent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    color: aliceblue;
+    width: 80%;
+    line-height: 13px;
+    font-size: 17px;
+    width: 100%;
+}
+@media (max-width:480px) {
+    .conferenceHead {
+        color: aliceblue;
+        font-size: 20px;
+        /* margin-top: 53rem; */
+        /* padding: 0px 20px 15px 40px; */
+    }
+
+   
+}
+
+.leaderBtn{
+    margin-top: 3rem;
+}
+.exText{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid#000; */
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: poppins;
+    color: #fff
+    
+    
+}
+
+
+
+.word{
+    background-image: url(../../src/images/word14.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0px 12px 11px 8px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+@media (max-width:480px) {
+    .word{
+        background-image: url(../../src/images/word14.jpg);
+        background-repeat: no-repeat;
+        border-radius: 5%;
+    box-shadow: 0px 12px 11px 8px;
+        background-size: 400px;
+        width: 355px;
+        height: 400px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }   
+}
+
+.prayer{
+    background-image: url(../../src/images/prayer.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0px 12px 11px 8px;
+    size: 20px;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.worship{
+    background-image: url(../../src/images/worship4.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 5%;
+    box-shadow: 0px 12px 11px 8px;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.findBtn{
+    margin-top: 4rem;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.parentBoxFollow{
+    background-color: #77756e;
+    width: 100%;
+    height: 45rem;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+@media (max-width:480px) {
+    .parentBoxFollow {
+        background-color: #77756e;
+        width: 100%;
+        height: 45rem;
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        display: none;
+    }
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.followText{
+    font-size: 45px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.followP{
+    font-size: 25px;
+    color: #fff;
+}
+.lincenceBtn{
+    background-color: none;
+   
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 3rem;
+    background-color: rgb(6, 139, 17);
+    margin-left: 3rem;
+    
+    padding: 10px 40px;
+    width: 15%;
+}
+@media (max-width:480px) {
+    .lincenceBtn {
+        background-color: none;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 25px;
+        text-decoration: none;
+        margin-top: 3rem;
+        background-color: rgb(6, 139, 17);
+        margin-left: 3rem;
+        padding: 10px 40px;
+        margin: 0;
+        width: 41%;
+    }
+}
+.lsBtn{
+    text-decoration: none;
+    color: #fff;
+}
+.read{
+     
+        font-family: poppins;
+        color: green;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin-top: 4rem;
+    
+}
+
+@media (max-width:480px) {
+    .read {
+        font-family: poppins;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    }
+}
+
+.serviceTime{
+    font-size: 17px;
+    background-color: rgb(164,209,167);
+    /* border: 3px solid black; */
+    margin-top: 1rem;
+    padding: auto;
+    padding: 20px;
+    font-weight: initial;
+}
+.pastorDeskBox{
+    background-color: #1e8686;
+    display: flex;
+    padding: 100px;
+    color: #fff;
+    margin: -11px;
+    margin-top: 4rem;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media(max-width:480px){
+    .pastorDeskBox{
+        
+        /* background-color: red; */
+        padding: 1px;
+        /* margin: -11px; */
+        justify-content: center;
+    }
+}
+.pastorDeskText{
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 70px;
+    font-family: poppins;
+}
+
+@media(max-width:480px){
+    .pastorDeskText {
+        text-align: left;
+padding: 20px;
+    }
+}
+.generalsBox{
+    width: 400px;
+    height: 500px;
+    background-color: #77756e;
+}
+.genImage{
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+}
