@@ -1,5 +1,5 @@
 {
-  "homepage": "/",
+  "homepage": "hello-world",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -23,13 +23,10 @@
   "overrides": {
     "autoprefixer": "10.4.5"
  },
-  
-  
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects "
     "test": "react-scripts test",
     "deploy": "gh-pages  -d build",
     "eject": "react-scripts eject"
