@@ -20,11 +20,11 @@ const first = () => {
             progressive thinking.
           </p>
         </div>
-        <div className="readBtn">
+        {/* <div className="readBtn">
           <a href="article" className="readMore">
             Get inspired
           </a>
-        </div>
+        </div> */}
       </section>
 
       <section className="coreValues">
